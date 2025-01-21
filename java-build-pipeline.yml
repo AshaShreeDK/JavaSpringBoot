@@ -39,9 +39,8 @@ steps:
     command: 'publish'
     publishDirectory: '/tmp/$(version)'
     feedsToUsePublish: 'internal'
-    vstsFeedPublish: '25977150-2660-41de-841f-34737f921521'
-    vstsFeedPackagePublish: 'javaapplication'
-    versionOption: 'custom'
-    versionPublish: '$(version)'
-
+    vstsFeedPublish: '13e91627-f971-47ff-8b01-9abae0997d6c/c23ee893-283e-4303-83c9-2d49487c4fcc'
+    vstsFeedPackagePublish: 'javaapp'
+    versionOption: 'patch'
+    packagePublishDescription: '$(version)'
 
