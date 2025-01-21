@@ -2,11 +2,9 @@ trigger:
 - master
 
 pool:
-  name: project-cicd-pool
-  vmImage: Az-runner
+  vmImage: ubuntu-latest
 
 steps:
-
 - task: Bash@3
   displayName: "Gather artifact version"
   inputs:

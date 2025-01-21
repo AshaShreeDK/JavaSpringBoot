@@ -1,9 +1,8 @@
 trigger:
 - none
-pool:
-  name: project-cicd-pool
-  vmImage: Az-runner
 
+pool:
+  vmImage: ubuntu-latest
 variables:
  - group: "java-vars"
  
